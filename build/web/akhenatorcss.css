@@ -25,8 +25,7 @@ body {
    
 }
 
-main {
-    font-size: xx-large;
+html {
     font-family: "Montserrat";
 }
 
@@ -34,4 +33,29 @@ footer {
     display: flex;
     justify-content: center;
     font-size: larger;
+}
+
+.center {
+    margin: 100px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.credit {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.btn {
+    margin: 20px
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
 }
