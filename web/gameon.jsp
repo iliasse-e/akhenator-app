@@ -22,9 +22,9 @@
             <input type="text" name="question" id="question" required>
             <br>
             <label for="question">Quelle sera la bonne réponse à votre question ? </label>
-            <input type ="radio" value = "OUI" name ="answer">
+            <input type ="radio" value = "OUI" id="OUI" name ="answer">
             <label for="OUI" > OUI </label>
-            <input type ="radio" value = "NON" name ="answer">
+            <input type ="radio" value = "NON" id="NON" name ="answer">
             <label for="NON">NON</label>
             <br>
             <input type="submit" value="Soumettre ma réponse et retour menu">

@@ -24,6 +24,8 @@ public class TreeGrowthServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
+        response.setHeader("Cache-Control", "private, no-store, no-cache, must-revalidate");
 
         HttpSession session = request.getSession();
         Tree tree = (Tree) session.getAttribute("tree");
@@ -34,7 +36,8 @@ public class TreeGrowthServlet extends HttpServlet {
         tree.grow(question, newanimal, answer);
         ServletContext ctx = getServletContext();
         ctx.setAttribute("root", tree.getRoot());
-        // TO DO : persistance
+        String path = this.getServletContext().getRealPath("data");
+        FileUtils.saveToFile(tree.getRoot(), path + "/tree.ser");
         System.out.println(tree.getRoot());
         getServletContext().getRequestDispatcher("/index.html").forward(request, response);
 

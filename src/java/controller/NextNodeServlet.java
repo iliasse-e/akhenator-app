@@ -24,6 +24,8 @@ public class NextNodeServlet extends HttpServlet {
     
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
+        response.setHeader("Cache-Control", "private, no-store, no-cache, must-revalidate");
         HttpSession session = request.getSession();
         Tree tree = (Tree) session.getAttribute("tree");
         String nextStr = request.getParameter("next");

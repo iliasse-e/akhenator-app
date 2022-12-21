@@ -39,12 +39,18 @@ public class FileUtils {
     public static Node loadNodeFromFile(String url) {
         Node node = null;
         File f = new File(url);
-        if(!f.isFile())
+        if (!f.isFile()) {
+            try {
+                f.createNewFile();
+            } catch (IOException ex) {
+                Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, ex);
+            }
             return null;
+        }
         FileInputStream fis;
         try {
             fis = new FileInputStream(url);
-            try (ObjectInputStream ois = new ObjectInputStream(fis)) {
+            try ( ObjectInputStream ois = new ObjectInputStream(fis)) {
                 node = (Node) ois.readObject();
             }
         } catch (FileNotFoundException ex) {

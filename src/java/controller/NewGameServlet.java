@@ -25,6 +25,8 @@ public class NewGameServlet extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
+        response.setHeader("Cache-Control", "private, no-store, no-cache, must-revalidate");
 
         ServletContext ctx = getServletContext();
         Node root = (Node) ctx.getAttribute("root");

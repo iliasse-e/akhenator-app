@@ -24,6 +24,7 @@ public class VueServlet extends HttpServlet {
  
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        response.setHeader("Cache-Control", "private, no-store, no-cache, must-revalidate");
         HttpSession session = request.getSession(true);
         Tree tree = (Tree) session.getAttribute("tree");
         Node node = tree.getCurrentNode();
