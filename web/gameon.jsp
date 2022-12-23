@@ -11,10 +11,10 @@
     <head>
         <title>Akhenator</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="akhenatorcss.css" type="text/css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="akhenatorcss.css" type="text/css"/>
     </head>
-    <body class="center card">
+    <body class="center">
         <form action="/Akhenator/TreeGrowthServlet">
             <div class="form-group">
                 <label >À quel animal pensiez-vous ?</label>

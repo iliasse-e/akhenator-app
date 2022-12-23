@@ -12,34 +12,40 @@
         <title>Akhenator</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-        <link rel="stylesheet" href="akhenatorcss.css" type="text/css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="akhenatorcss.css" type="text/css"/>
     </head>
     <body class="center">
         <c:if test="${node.question==false}">
-            <div>Question :</div>
-            <div> Est ce que c'est un ${node.content} ?</div>
-            <section class="answer">
-                <form action="/Akhenator/GameOver.html" method="GET">
-                    <input class="btn btn-primary" type="submit" value="OUI">
-                </form>
-                <form action="/Akhenator/gameon.jsp" method="GET">
-                    <input class="btn btn-primary" type="submit" value="NON">
-                </form>     
-            </section>
-
+            <div class="question-container">
+                <div class="question-title">Question :</div>
+                <div> Est ce que c'est un ${node.content} ?</div>
+            </div>
+                <section class="answer btn-group">
+                    <form action="/Akhenator/GameOver.html" method="GET">
+                        <input class="btn btn-primary" type="submit" value="OUI">
+                    </form>
+                    <form action="/Akhenator/gameon.jsp" method="GET">
+                        <input class="btn btn-primary" type="submit" value="NON">
+                    </form>     
+                </section>
         </c:if>
         <c:if test="${node.question==true}">
-            <div>Question :</div>
-            <div> ${node.content} </div>
-            <form action="/Akhenator/NextNodeServlet" method="GET">
-                <input type ="hidden" name ="next" value="true">
-                <input class="btn btn-primary" type="submit" value="OUI">
-            </form>
-            <form action="/Akhenator/NextNodeServlet" method="GET">
-                <input type ="hidden" name ="next" value="false">
-                <input class="btn btn-primary" type="submit" value="NON">
-            </c:if>
+            <div class="question-container">
+                <div class="question-title">Question :</div>
+                <div> ${node.content} </div>
+            </div>
+                <section class="answer btn-group">
+                    <form action="/Akhenator/NextNodeServlet" method="GET">
+                        <input type ="hidden" name ="next" value="true">
+                        <input class="btn btn-primary" type="submit" value="OUI">
+                    </form>
+                    <form action="/Akhenator/NextNodeServlet" method="GET">
+                        <input type ="hidden" name ="next" value="false">
+                        <input class="btn btn-primary" type="submit" value="NON">
+                    </form>            
+                </section>
+        </c:if>
     </body>
     <footer>
         <div class="credit">Proudly made by : Iliasse, Morgane and Thibault </div>

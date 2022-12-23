@@ -3,14 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/stag/Documents/akhenator%20app/akhenatorApp-master/web/META-INF/Vue.jsp</file>
-            <file>file:/home/stag/Documents/akhenator%20app/akhenatorApp-master/web/end-game.jsp</file>
-            <file>file:/home/stag/Documents/akhenator%20app/akhenatorApp-master/src/java/model/Tree.java</file>
-            <file>file:/home/stag/Documents/akhenator%20app/akhenatorApp-master/web/game.jsp</file>
-            <file>file:/home/stag/Documents/akhenator%20app/akhenatorApp-master/web/akhenatorcss.css</file>
-            <file>file:/home/stag/Documents/akhenator%20app/akhenatorApp-master/web/index.html</file>
-            <file>file:/home/stag/Documents/akhenator%20app/akhenatorApp-master/web/META-INF/context.xml</file>
-            <file>file:/home/stag/Documents/akhenator%20app/akhenatorApp-master/src/java/model/Node.java</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/Vue.jsp</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/akhenatorcss.css</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/src/java/controller/NextNodeServlet.java</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/src/java/controller/NewGameServlet.java</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/main.jsp</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/index.html</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/gameon.jsp</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/GameOver.html</file>
         </group>
     </open-files>
 </project-private>
