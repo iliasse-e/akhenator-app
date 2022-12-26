@@ -85,3 +85,16 @@ footer {
     font-size: 1.5em;
     margin-bottom: 50px;
 }
+
+#question-content:first-letter {
+    text-transform: capitalize;
+}
+
+.error-msg {
+    color: red;
+    opacity: .6;
+}
+
+body .form-group {
+    margin-bottom: 1.5rem;
+}

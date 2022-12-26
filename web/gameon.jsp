@@ -18,20 +18,19 @@
         <form action="/Akhenator/TreeGrowthServlet">
             <div class="form-group">
                 <label >À quel animal pensiez-vous ?</label>
-                <input class="form-control" type="text" name="newanimal" id="newanimal" required placeholder="ex: un chat">            
-                <small id="emailHelp" class="form-text text-muted">espace pour code erreur</small>
+                <input class="form-control" type="text" name="newanimal" id="newanimal" required minlength="5" pattern="un.*[a-zA-Z]+" placeholder="ex : un chat">            
+                <small id="errorMsg" class="form-text text-muted">doit commencer par un / une</small>
             </div>
 
             <div class="form-group">
                 <label for="question">Quelle question dois-je poser pour différencer un ${tree.currentNode.content} et votre animal ? </label>
-                <input class="form-control" type="text" name="question" id="question" required placeholder="ex: A-t-il une moustache ?">
-                <small id="emailHelp" class="form-text text-muted">espace pour code erreur</small>
+                <input class="form-control" type="text" name="question" id="question" required minlength="8" pattern="^.*([a-zA-Z]+( [a-zA-Z]+)+).*\?$" placeholder="ex : A-t-il une moustache ?">
+                <small id="emailHelp" class="form-text text-muted">la question doit finir par "?"</small>
             </div>
-
 
             <label for="question">Quelle sera la bonne réponse à votre question ? </label>
             <div class="form-check">
-                <input type ="radio" class="form-check-input" value = "OUI" name ="answer">
+                <input type ="radio" class="form-check-input" value = "OUI" name ="answer" checked>
                 <label class="form-check-label" for="OUI" > OUI </label>
             </div>
             <div class="form-check">
@@ -44,8 +43,5 @@
         </form>
 
     </body>
-    <footer>
-        <div class="credit">Proudly made by : Iliasse, Morgane and Thibault </div>
-    </footer>
 </html>
 

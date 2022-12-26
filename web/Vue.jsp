@@ -33,7 +33,7 @@
         <c:if test="${node.question==true}">
             <div class="question-container">
                 <div class="question-title">Question :</div>
-                <div> ${node.content} </div>
+                <div id="question-content"> ${node.content} </div>
             </div>
                 <section class="answer btn-group">
                     <form action="/Akhenator/NextNodeServlet" method="GET">
