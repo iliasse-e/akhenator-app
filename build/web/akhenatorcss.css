@@ -9,7 +9,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 @font-face {
     font-family: "Montserrat";
     src: url("./font/Montserrat-Italic-VariableFont_wght.ttf");
-    
 }
 
 header {
@@ -19,14 +18,15 @@ header {
 }
 
 body {
-    background-image: url("./images/mysterious.jpg");
+    text-align: center;
+    background-color: #1c1c1c;    
     justify-content: center;
     font-size: larger;
-   
+    color: #b3b3b3;
+    font-family: "Montserrat";
 }
 
-main {
-    font-size: xx-large;
+html {
     font-family: "Montserrat";
 }
 
@@ -34,4 +34,54 @@ footer {
     display: flex;
     justify-content: center;
     font-size: larger;
+}
+
+.center {
+      margin: auto;
+      margin-top: 2%;
+      text-align: left;
+      width: 27%;
+      padding: 10px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.credit {
+    font-weight: 200;
+    font-size: 15px;
+    position: absolute;
+    bottom: 5%;
+    width: 30%;
+    text-align: center;
+}
+
+.btn {
+    margin: 20px 0;
+}
+
+.btn-start {
+    margin: 20% 0;
+}
+
+.answer {
+    display: flex;
+    flex-direction: column;
+}
+
+.answer .btn {
+    width: 100%;
+}
+
+.question-container {
+    margin-bottom: 50px;
+}
+
+.question-title {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 50px;
 }
