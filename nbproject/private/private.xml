@@ -3,14 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/Vue.jsp</file>
-            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/akhenatorcss.css</file>
-            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/src/java/controller/NextNodeServlet.java</file>
-            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/src/java/controller/NewGameServlet.java</file>
-            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/main.jsp</file>
-            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/index.html</file>
-            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/gameon.jsp</file>
-            <file>file:/home/stag/Documents/Projet%20akhinator/Akhenator-app/web/GameOver.html</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/README.md</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/src/java/model/Tree.java</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/src/java/controller/FileUtils.java</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/web/index.html</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/nbproject/ant-deploy.xml</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/src/conf/MANIFEST.MF</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/nbproject/project.xml</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/nbproject/project.properties</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/web/GameOver.html</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/web/akhenatorcss.css</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/web/Vue.jsp</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/src/java/model/Node.java</file>
+            <file>file:/home/stag/Documents/Projet%20akhinator/akhenator-app/web/gameon.jsp</file>
         </group>
     </open-files>
 </project-private>
