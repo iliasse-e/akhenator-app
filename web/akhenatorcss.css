@@ -18,22 +18,21 @@ header {
 }
 
 body {
+    opacity: 0;
     text-align: center;
     background-color: unset;
     justify-content: center;
     font-size: larger;
     color: #b3b3b3;
     font-family: "Montserrat";
-    opacity: 0;
-    animation-delay: 200ms;
     animation-name: appears;
-    animation-duration: 500ms;
+    animation-duration: 800ms;
     animation-fill-mode: forwards;
 }
 
 html {
     font-family: "Montserrat";
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/agrabah-night.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/palais");
     background-size: 100%;
 }
 
@@ -166,6 +165,7 @@ body .form-group {
 
 @keyframes appears {
     0% {
+        opacity: 0;
     }
     100% {
         opacity: 1;

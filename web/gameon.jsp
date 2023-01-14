@@ -41,7 +41,14 @@
             <br>
             <input class="btn btn-primary" type="submit" value="Soumettre ma réponse et retour menu">
         </form>
-
+        <p class="star star-1"></p>
+        <p class="star star-2"></p>
+        <p class="star star-3"></p>
+        <p class="star star-4"></p>
+        <p class="star star-5"></p>
+        <p class="star star-6"></p>
+        <p class="star star-7 star-falling"></p>
+        <p class="star star-8 star-falling"></p>
     </body>
 </html>
 

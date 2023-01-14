@@ -15,7 +15,7 @@ public class Tree {
     protected Node currentNode;
     
     public Tree() {
-        root = new Node("cheval");
+        root = new Node("un cheval");
         currentNode = root;
     }
     

@@ -20,6 +20,7 @@ public class LoadTreeServlet extends HttpServlet {
     public void init() throws ServletException {
         super.init();
         String path = this.getServletContext().getRealPath("data");
+        System.out.println("path : "+path);
         Node root = FileUtils.loadNodeFromFile(path + "/tree.ser");
         ServletContext ctx = getServletContext();
         ctx.setAttribute("root", root);

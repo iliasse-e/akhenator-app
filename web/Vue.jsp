@@ -20,7 +20,7 @@
             <div class="question-container">
                 <div class="question-title">Question :</div>
                 <div class="box sb1">
-                    <p> Est ce que c'est un ${node.content} ?</p>
+                    <p> Est ce que c'est ${node.content} ?</p>
                 </div>
 
             </div>
